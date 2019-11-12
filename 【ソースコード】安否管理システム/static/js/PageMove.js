@@ -28,13 +28,17 @@ window.onload = function(){
       SettingBottun[1].style.borderColor ="#6699FF";
     }
 
+    else if(PageTitle.innerHTML == "安否確認システム 集計結果"){
+      SettingBottun[1].style.backgroundColor = "#6699FF";
+      SettingBottun[1].style.borderColor ="#6699FF";
+    }
+
     // 連絡履歴画面を開いているときの処理
     if(PageTitle.innerHTML == "安否確認システム 連絡履歴"){
       SettingBottun[0].style.backgroundColor = "#6699FF";
       SettingBottun[0].style.borderColor ="#6699FF";
     }
 
-    // 連絡履歴明細画面を開いているときの処理
     else if(PageTitle.innerHTML == "安否確認システム 履歴明細"){
       SettingBottun[0].style.backgroundColor = "#6699FF";
       SettingBottun[0].style.borderColor ="#6699FF";

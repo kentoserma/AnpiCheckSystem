@@ -1,0 +1,20 @@
+/*----------------------------------------------------------------*/
+/* 集計結果画面用stylesheet                                        */
+/*----------------------------------------------------------------*/
+table{
+  width:100%;
+}
+
+th{
+  padding:0;
+  background-color: #c0c0c0;
+  border: thin solid #0000DD;
+}
+
+td{
+  border: thin solid #0000DD;
+}
+
+.TableName{
+  font-size: 8px;
+}
