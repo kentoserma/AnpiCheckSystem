@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../static/css/style_footer.css">
     <link rel="stylesheet" href="../static/css/style_user_add_delete.css">
     <script src="../static/js/PageMove.js" charset="utf-8"></script>
+    <script src="../static/js/AddDelete.js" charset="utf-8"></script>
     <title>登録画面</title>
   </head>
 
@@ -13,7 +14,7 @@
 
     <!-- ヘッダー -->
     <header class="page-header">
-        <h2 id="header_left">←戻る</h2>
+        <h2 id="header_left"><a href="manage_main.html">←戻る</a></h2>
         <h1 id="title">安否確認システム 登録画面</h1>
     </header>
 
@@ -23,7 +24,7 @@
       <!-- 社員番号入力フォーム -->
       <div class="InputForm">
           <div class="sub_title">社員番号:</div>
-          <input type="text" name="EmployeeID" class="input" placeholder="社員番号を入力してください。">
+          <input type="text" name="EmployeeID" class="input" placeholder="社員番号を入力してください。" >
       </div>
 
       <!-- 氏名入力フォーム -->
@@ -56,11 +57,11 @@
     <!-- 登録・削除ボタン -->
     <ul class="button_groupe">
         <li id="add">
-            <button type="submit" class="button" name="add" value="code">登録</button>
+            <button type="submit" class="button" name="add" value="code" onclick="return OnButtonClickAdd();">登録</button>
         </li>
 
         <li id="delete">
-            <button type="submit" class="button" name="delete" value="code">削除</button>
+            <button type="submit" class="button" name="delete" value="code" onclick="return OnButtonClickDelete();">削除</button>
         </li>
     </ui>
 
