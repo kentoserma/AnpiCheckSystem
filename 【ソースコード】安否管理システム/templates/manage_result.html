@@ -22,26 +22,30 @@
     <div id="main-content">
 
       <!-- 出勤可能者テーブル -->
-      <table id="AttendanceCondition">
-        <div class="TableName">出勤可能者</div>
-        <tr>
-          <th>部署</th>
-          <th>生産部</th>
-          <th>生技部</th>
-          <th>品質保証部</th>
-        </tr>
+      <div class="Table">
+        <table id="AttendanceCondition">
+          <div class="TableName">出勤可能者</div>
+          <tr>
+            <th>部署</th>
+            <th>生産部</th>
+            <th>生技部</th>
+            <th>品質保証部</th>
+          </tr>
 
-        <tr>
-          <td>合計(人)</td>
-          <td>50</td>
-          <td>40</td>
-          <td>90</td>
-        </tr>
-      </table>
+          <tr>
+            <td>合計(人)</td>
+            <td>50</td>
+            <td>40</td>
+            <td>90</td>
+          </tr>
+        </table>
+      </div>
 
       <!-- 出勤可能者のグラフ -->
-      <canvas id="AttendanceBarChart"></canvas>
-      <script src="../static/js/graph.js" charset="utf-8"></script>
+      <div class="Graph">
+        <canvas id="AttendanceBarChart"></canvas>
+        <script src="../static/js/graph.js" charset="utf-8"></script>
+      </div>
 
       <!-- 本人の状況テーブル -->
       <table id="MyCondition">
@@ -60,54 +64,62 @@
       </table>
 
       <!-- 家族の状況テーブル -->
-      <table id="FamilyCondition">
-        <div class="TableName">状況：家族</div>
-        <tr>
-          <th>無事</th>
-          <th>ケガしている</th>
-          <th>危険な状況にある</th>
-        </tr>
+      <div class="Table">
+        <table id="FamilyCondition">
+          <div class="TableName">状況：家族</div>
+          <tr>
+            <th>無事</th>
+            <th>ケガしている</th>
+            <th>危険な状況にある</th>
+          </tr>
 
-        <tr>
-          <td>90</td>
-          <td>4</td>
-          <td>3</td>
-        </tr>
-      </table>
+          <tr>
+            <td>90</td>
+            <td>4</td>
+            <td>3</td>
+          </tr>
+        </table>
+      </div>
 
       <!-- 家屋の状況テーブル -->
-      <table id="HouseCondition">
-        <div class="TableName">状況：家屋</div>
-        <tr>
-          <th>無事</th>
-          <th>半壊</th>
-          <th>倒壊</th>
-        </tr>
+      <div class="Table">
+        <table id="HouseCondition">
+          <div class="TableName">状況：家屋</div>
+          <tr>
+            <th>無事</th>
+            <th>半壊</th>
+            <th>倒壊</th>
+          </tr>
 
-        <tr>
-          <td>90</td>
-          <td>4</td>
-          <td>3</td>
-        </tr>
-      </table>
+          <tr>
+            <td>90</td>
+            <td>4</td>
+            <td>3</td>
+          </tr>
+        </table>
+      </div>
 
       <!-- 回答状況テーブル -->
-      <table id="AnswerCondition">
-        <div class="TableName">状況：回答</div>
-        <tr>
-          <th>回答済み</th>
-          <th>未回答</th>
-        </tr>
+      <div class="Table">
+        <table id="AnswerCondition">
+          <div class="TableName">状況：回答</div>
+          <tr>
+            <th>回答済み</th>
+            <th>未回答</th>
+          </tr>
 
-        <tr>
-          <td>90</td>
-          <td>4</td>
-        </tr>
-      </table>
+          <tr>
+            <td>90</td>
+            <td>4</td>
+          </tr>
+        </table>
+      </div>
 
       <!-- 回答状況のグラフ -->
-      <canvas id="AnswerPieChart"></canvas>
-      <script src="../static/js/graph.js" charset="utf-8"></script>
+      <div class="Graph">
+        <canvas id="AnswerPieChart"></canvas>
+        <script src="../static/js/graph.js" charset="utf-8"></script>
+      </div>
 
     </div>
 
