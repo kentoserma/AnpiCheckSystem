@@ -1,6 +1,11 @@
 /*----------------------------------------------------------------*/
 /* フッター用stylesheet                                            */
 /*----------------------------------------------------------------*/
+.wapper{
+padding-bottom: 100px;/*←footerの高さ*/
+box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+}
+
 .page-footer{
   position:relative;
 }
