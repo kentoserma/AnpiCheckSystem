@@ -1,8 +1,8 @@
 //-------------------------------------------------------------------------------------
-// 概要 : html読み込み時の実行される処理
+// 概要 : html読み込み時に画面最下部にあるボタンの色を変更する処理
 //        　※フッターのボタンの色を変更する
 //-------------------------------------------------------------------------------------
-window.onload = function(){
+window.addEventListener("load", function(){
     var PageTitle = document.getElementById("title");
     var SettingBottun = document.getElementsByClassName("submit");
 
@@ -44,4 +44,4 @@ window.onload = function(){
       SettingBottun[0].style.borderColor ="#6699FF";
     }
 
-}
+});

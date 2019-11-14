@@ -8,4 +8,13 @@
 .each_history_list{
     border: thin solid #0000DD;
     width:100%;
+    display:block;
+}
+
+li{
+  display:block;
+}
+
+.AnswerStatus{
+  display:inline-block;
 }
